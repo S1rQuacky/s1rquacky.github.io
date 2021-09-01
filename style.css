@@ -1,4 +1,16 @@
 header { 
     text-align: center;
     background: url(https://i.imgur.com/pwKn6W4.png);
+    height: 400px;
+    /* background: url(http://i.imgur.com/pwKn6W4.png); */
+    background-size: cover ;
+    
+   
+}
+h1 {
+    color: White;
+    font-size: 100px;
+    font-family: 'Rampart One', cursive;
+    padding:170px;
+    margin-top: 0;
 }
