@@ -8,9 +8,28 @@ header {
    
 }
 h1 {
-    color: White;
+    color: rgb(243, 240, 237);
     font-size: 100px;
     font-family: 'Rampart One', cursive;
-    padding:170px;
-    margin-top: 0;
+    padding:170px 170px 40px;
+    margin: 0;
+}
+
+input[type="text"]{
+    border-width: 5px;
+    /* max-width: 500px ; */
+    border-color: white;
+    height: 20px;
+    width: 170px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: black;
+    height: 25px;
+    width: 100px;
+}
+
+div {
+    display: flexbox;
 }
