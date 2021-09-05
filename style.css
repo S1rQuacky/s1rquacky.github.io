@@ -30,6 +30,23 @@ input[type="submit"]{
     width: 100px;
 }
 
-div {
-    display: flexbox;
+main{
+
+    display: grid ;
+    grid-template-areas: 
+    'item1 item1 item1 item1';
+    margin: auto;
+    background-color: yellow;
 }
+
+div{
+    background-color: violet;
+    margin: 5%;
+
+    
+
+
+}
+/* @media screen and (min-width: 769px){
+
+};     */

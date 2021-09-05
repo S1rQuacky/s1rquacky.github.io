@@ -27,8 +27,9 @@ function handleGetData(event) {
                 const div = $("<div>")
                 div.html(`<h3><a href="${recipes.recipe.url}" target="_blank"> ${recipes.recipe.label} </a> </h3>`)
                 //${recipes.recipe.url}  -- added the link next to title, but no hyperlink
-                $("main").append(div)
-                $input.val("")
+                $("main").append(div);
+                $input.val("");
+                
             })
 
 
