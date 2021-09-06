@@ -25,8 +25,9 @@ function handleGetData(event) {
             $("main").empty()
             data.hits.forEach((recipes, index) => {
                 const div = $("<div>")
-                div.html(`<h3><a href="${recipes.recipe.url}" target="_blank"> ${recipes.recipe.label} </a> </h3>`)
-                //${recipes.recipe.url}  -- added the link next to title, but no hyperlink
+                div.html(`<h3><a href="${recipes.recipe.url}" target="_blank"> ${recipes.recipe.label} </a> </h3>
+                <img src="${recipes.recipe.image}">`)
+                
                 $("main").append(div);
                 $input.val("");
                 
