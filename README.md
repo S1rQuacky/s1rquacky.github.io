@@ -12,4 +12,4 @@ A webpage to search for your desired recipes via ingredient, dish name or cuisin
 8. IMGUR images
 
 ### Screenshots
-![alt text] (https://wireframe.cc/pro/pp/5d924535b467890)
+![Wireframe] (/img/Project1_template.img)
