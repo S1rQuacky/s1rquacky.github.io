@@ -1,19 +1,22 @@
 body{
+    background: url(https://i.imgur.com/pwKn6W4.png);
+    background-size: cover ;
     margin:0;
     padding:0;
     width: 100%;
     text-align: center;
     object-fit: contain;
-    background-color: #E3BFB1;
+   
+    
   
 }
 
 header { 
     text-align: center;
-    background: url(https://i.imgur.com/pwKn6W4.png);
+    
     height: 400px;
     /* background: url(http://i.imgur.com/pwKn6W4.png); */
-    background-size: cover ;
+    
     object-fit: cover;
     position: relative;
     width: 100%;  
@@ -65,11 +68,11 @@ a:hover{
 }
 
 div{ 
-    border:7px solid #F6A314;
+    border:10px double #F6A314;
     margin: 5%; 
     max-width: 300px;
     max-height: 300px;
-    background-color:#EFBDAA;
+    background-color:#FFE4B5;
 }
 
 img{
