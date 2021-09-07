@@ -11,5 +11,5 @@ A webpage to search for your desired recipes via ingredient, dish name or cuisin
 7. EDAMAM API
 8. IMGUR images
 
-### Screenshots
-![Wireframe] (img/Project1_template.img)
+### Getting Started
+[Click Here](https://s1rquacky.github.io/) to try it out. 
