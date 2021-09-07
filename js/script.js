@@ -15,18 +15,20 @@ function handleGetData(event) {
 
     }).then(
         function(data){
-            //brought up the data but only single search and last of 20 per page
-            //recipeData = JSON.parse(data.hits)
-            // for (let i = 0; i < data.hits.length; i++){
-            //   $(ul).append(`<li>${data.hits[i].recipe.label}</li>`)
-               
-            // }
-            //$label.text(data.hits[0].recipe.label);
+            
             $("main").empty()
             data.hits.forEach((recipes, index) => {
-                const div = $("<div>")
+                const div = $("<div class='name'>")
                 div.html(`<h3><a href="${recipes.recipe.url}" target="_blank"> ${recipes.recipe.label} </a> </h3>
-                <img src="${recipes.recipe.image}">`)
+                <div class="wrap">
+                    <img src="${recipes.recipe.image}">
+                    <div class="textBox">
+                        <p>Portions: ${recipes.recipe.yield}</p>
+                        <p>Diet Labels: ${recipes.recipe.dietLabels}</p>
+                    </div>
+                
+                </div>
+                `)
                 
                 $("main").append(div);
                 $input.val("");
