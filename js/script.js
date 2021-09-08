@@ -1,6 +1,3 @@
-//let recipeData
-
-
 
 let $label=$('#label');
 //let $result=$('#result');
